@@ -4,6 +4,7 @@ import subprocess
 
 def getFullContent(link):
     curl = "curl -L " + link
+    # note: tidy -xml can be used to format the final output
     tidy = "tidy --force-output yes --vertical-space no -utf8 -w 100000 2>/dev/null"
     grep = "grep word_count"
     try:
@@ -19,16 +20,16 @@ def getStuffBetween(tag, text):
     linenumbers = [] # [(start, end)]
     start = 0
     for num, line in enumerate(text):
-        if "<"+tag+">" in line: 
+        if "<"+tag+">" in line:  # if we open, start keeping the lines
             keep = True
             start = num
-        elif "</"+tag+">" in line:
+        elif "</"+tag+">" in line:  # if we close, we be done
             item += line
             keep = False
             items.append(item)
             linenumbers.append((start,num))
-
             item = ""
+
         if keep:
             item += line
 
@@ -54,10 +55,9 @@ for item in items:
     # and now we just need to remove the paragraph attributes because who cares
     newcontent = fullcontent.splitlines()
     newcontent = [re.sub(r"<p.*?>", r"<p>", line) for line in newcontent]
-    print newcontent, "\n-----------------------------------------------------------"
-    newcontent = [line + "\n" for line in newcontent]
-
     newcontent = ' '.join(newcontent)
+
+    # and now we plug the content into the item
     # search
     head = r"<description><!\[CDATA\[<p class=\"descender\">"
     tail = r".*?\]\]"
@@ -68,9 +68,6 @@ for item in items:
     replace = head2 + newcontent + tail2
 
     fixeditem = re.sub(search, replace, item)
-
-    # and just plug it back in
-#    fixeditem = re.sub(r"<content:encoded><!\[CDATA\[.*?\]\]>", r"<content:encoded><![CDATA["+newcontent+"]]>", item) # don't need to escape the sub-side
     fixeditems.append(fixeditem)
 
 #copy from 0 to start
