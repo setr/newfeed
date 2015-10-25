@@ -53,7 +53,9 @@ for item in items:
 
     # and now we just need to remove the paragraph attributes because who cares
     newcontent = fullcontent.splitlines()
-    newcontent = [re.sub(r"<p.*?>", r"<p>", p) for p in newcontent]
+    newcontent = [re.sub(r"<p.*?>", r"<p>", line) for line in newcontent]
+    newcontent = [line + "\n" for line in newcontent]
+
     newcontent = ' '.join(newcontent)
     # search
     head = r"<description><!\[CDATA\[<p class=\"descender\">"
