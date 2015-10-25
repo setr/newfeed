@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="0.92" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>The New Yorker</title>
+	<link>http://www.newyorker.com</link>
+	<description>Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925.</description>
+	<lastBuildDate>Sun, 25 Oct 2015 22:04:41 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en-US</language>
+
+	<!-- generator="WordPress/4.0.8" -->
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="http://newyorker.superfeedr.com/"/>
+	<item>
+		<title>Jeb and Hillary: A Tale of Two Front-Runners</title>
+		<description><![CDATA[<p class="descender">The contrast couldn’t have been more stark. On Friday, as Hillary Clinton was basking in the reaction to her marathon appearance before the House Select Committee on Benghazi, her communications director, Jennifer Palmieri, <a href="http://www.politico.com/story/2015/10/hillary-clinton-campaign-benefits-benghazi-hearing-215107">told reporters</a> that the hour between nine and ten o’clock on Thursday night, after the hearing finally finished, was the campaign’s best fund-raising hour yet. And also on Friday, A.F.S.C.M.E., the largest public-sector union in the country, <a href="http://www.cnn.com/2015/10/23/politics/afscme-hillary-clinton-endorsement/">announced</a> that it was endorsing Clinton for the Presidency—an important win in her tussle with Senator Bernie Sanders for the backing of organized labor.</p>]]></description>
+		<link>http://www.newyorker.com/news/john-cassidy/jeb-and-hillary-a-tale-of-two-frontrunners</link>
+			</item>
+	<item>
+		<title>Holly Andres’s Adolescent Fairy Tales</title>
+		<description><![CDATA[ <p>Holly Andres’s photo series seem to unfold in the darkened corners of a fairy-tale dream space—a place where the private lives of girls intersect with the mysteries, and occasional dangers, of the real world. The stories she tells—in lush, cinematic scope, like movies made up of only still images—are often drawn from stories in her own childhood: the adventures of a group of adolescent girls hungry for new experience; the trauma of two young sisters who venture too close to a hornet&#8217;s nest. Her latest series, “The Fallen Fawn,” which will go on display at the Robert Mann Gallery on October 29th, tells the story of two sisters who discover a woman’s abandoned suitcase by a river behind their house. Treating it as a valuable treasure, they bring it home, hide it underneath the bed, and secretly dress up in the &#8220;mystery woman&#8217;s&#8221; belongings at night. In this story, as in her other work, the young protagonists project both the plucky curiosity of Nancy Drew and the fragile innocence of a sleeping Snow White.</p>]]></description>
+		<link>http://www.newyorker.com/culture/photo-booth/holly-andress-adolescent-fairy-tales</link>
+			</item>
+	<item>
+		<title>The Propaganda Precursor to “The Act of Killing”</title>
+		<description><![CDATA[<p class="descender">On the evening of September 30th, hundreds of men from the Islamic Defenders Front, an Indonesian hard-line Muslim group, streamed into a large square in east Jakarta. They had come to commemorate the fiftieth anniversary of the murder of six anti-Communist Indonesian generals by left-wing conspirators, including members of the Indonesian Communist Party (Partai Komunis Indonesia or P.K.I.). <a href="http://www.insideindonesia.org/dictionary-of-a-disaster">Fifty years ago</a>, Suharto, one of the few surviving major generals, responded by assuming control of the military and routing the poorly organized left-wing plotters. He portrayed their plot as an attempted coup and used it as a justification for rounding up and murdering hundreds of thousands of alleged Communists throughout Indonesia. Today, Indonesia’s state officials continue to support the Suharto line: that the generals’ murders represented a full-blown coup attempt and that the 1965 killings prevented an otherwise imminent Communist takeover. Fifty years after the event that set the mass murder in motion, the men in the courtyard had come to watch a film about the slaughter.</p>]]></description>
+		<link>http://www.newyorker.com/news/news-desk/the-propaganda-precursor-to-the-act-of-killing</link>
+			</item>
+	<item>
+		<title>The Too-Easy History of “Suffragette”</title>
+		<description><![CDATA[<p class="descender">You’d have to be a moral idiot to oppose a woman’s right to vote. And yet many of the people in Great Britain who opposed that right a hundred or so years ago were not, at the time, considered moral idiots—some of them have even gone down in history as esteemed, for other, unrelated activities. Among those opponents there were women, for a large set of complicated reasons. But you would not know any of this from watching “Suffragette,” directed by Sarah Gavron, written by Abi Morgan.</p>]]></description>
+		<link>http://www.newyorker.com/culture/richard-brody/the-too-easy-history-of-suffragette</link>
+			</item>
+	<item>
+		<title>An Attack and an Identity Crisis in Sweden</title>
+		<description><![CDATA[<p class="descender">“We took shelter under the tables. Everyone was scared. We cried,” a shaken eleven-year-old girl <a href="http://www.aftonbladet.se/nyheter/article21630464.ab" target="_blank">told reporters</a>, as she described how she and her classmates hid from a masked attacker who killed two and injured several others at a school on Thursday. Her tale of the hours in lockdown, sadly, would have been nothing out of the ordinary in America, where school attacks occur almost every week. But the girl, who wore a headscarf, spoke Swedish, and was standing next to her father outside an elementary and middle school in normally peaceful Trollhättan, an industrial town about fifty miles north of Gothenburg. She blinked and looked down a few times as her father described how he had come running when his daughter had called, crying and pleading with him to hurry. He pointed to his feet: he was still in his shower sandals.</p>]]></description>
+		<link>http://www.newyorker.com/news/news-desk/an-attack-and-an-identity-crisis-in-sweden</link>
+			</item>
+	<item>
+		<title>B.M.W.D.</title>
+		<description><![CDATA[<p class="descender">A day’s gone by since the Mets’ four-game sweep of the Cubs in the National League Championships and their glide into the coming World Series, but reality still feels a little distance away. “Beyond my wildest dreams” is the consensus summary among some old Mets fans I’ve consulted. We should not have been surprised by this morning’s baseball news, then, when Commissioner Rob Manfred swiftly accepted an offer from the International Rescue Committee to guarantee Cubs left fielder Kyle Schwarber an early safe passage into the American League, where he will no doubt find employment as a designated hitter. He will leave his mitt at the border.</p>]]></description>
+		<link>http://www.newyorker.com/news/sporting-scene/mets-fans-wildest-dreams</link>
+			</item>
+	<item>
+		<title>Daily Cartoon: Friday, October 23rd</title>
+		<description><![CDATA[]]></description>
+		<link>http://www.newyorker.com/cartoons/daily-cartoon/friday-october-23rd-hillary-clinton-benghazi-congressional-hearing</link>
+			</item>
+	<item>
+		<title>Are Cats Domesticated?</title>
+		<description><![CDATA[<p class="descender">&#8220;The cat does not offer services,&#8221; William Burroughs wrote. &#8220;The cat offers itself.&#8221; But it does so with unapologetic ambivalence. Greet a cat enthusiastically and it might respond with nothing more than a few unhurried blinks. Later, as you&#8217;re trying to work, it will commandeer your lap, keyboard, and attention, purring all the while. A cat will mew at the food bowl in the morning and set off on a multiple-day trek in the afternoon. Dogs are dependent on us to the point of being obsequious, but cats seem to be constantly reëvaluating the merits of our relationship, as well as their role in domestic life. &#8220;Are cats domesticated?&#8221; is one of the most frequently Googled questions about the animals, based on the search engine&#8217;s autocomplete suggestions.</p>]]></description>
+		<link>http://www.newyorker.com/tech/elements/are-cats-domesticated</link>
+			</item>
+	<item>
+		<title>To Catch a Falling Leaf</title>
+		<description><![CDATA[]]></description>
+		<link>http://www.newyorker.com/culture/culture-desk/to-catch-a-falling-leaf</link>
+			</item>
+	<item>
+		<title>What Provoked Palestinian Knife Attacks in Israel?</title>
+		<description><![CDATA[<p class="descender">This past Saturday, in separate incidents, four young Palestinians—three of them teen-agers—were shot dead after knife attacks on Israelis, three on police, one on an armed settler. Since the beginning of October, ten Israelis and dozens of Palestinians have been killed in attacks or suspected attacks, or confrontations at street demonstrations. Many more on both sides have been wounded. “These random, unpredictable attacks have stumped Israeli police,” CNN <a href="http://www.cnn.com/2015/10/14/middleeast/israel-palestinian-tensions/">reported</a> last Thursday, just after police killed a young Palestinian man, dressed in combat fatigues, who had attempted a stabbing near the Damascus Gate of Jerusalem’s Old City. Israeli authorities, the report continued, could not find any connection between the attackers and organized groups such as Hamas and Fatah, and so found it “difficult to devise a streamlined strategy to fight them.”</p>]]></description>
+		<link>http://www.newyorker.com/news/news-desk/what-provoked-palestinian-knife-attacks-in-israel</link>
+			</item>
+</channel>
+</rss>
