@@ -2,14 +2,13 @@
 <rss version="0.92" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>The New Yorker</title>
-<link>http://www.newyorker.com</link>
+<link>http://www.setr.github.io</link>
 <description>Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925.</description>
 <lastBuildDate>Sun, 25 Oct 2015 22:04:41 +0000</lastBuildDate>
 <docs>http://backend.userland.com/rss092</docs>
 <language>en-US</language>
+<atom:link href="http://setr.github.io/newfeed/finalyorker.rss" rel="self" type="application/rss+xml" />
 <!-- generator="WordPress/4.0.8" -->
-<atom:link rel="hub" href="http://pubsubhubbub.appspot.com" />
-<atom:link rel="hub" href="http://newyorker.superfeedr.com/" />
 <item>
 <title>Jeb and Hillary: A Tale of Two Front-Runners</title>
 <description>
@@ -31,14 +30,12 @@
  <p>There are still more than three months to go before the G.O.P. Iowa caucus, but if Bush is going to re-emerge as the front-runner, he’ll have to do a much better job of answering Trump’s charges. He’ll get his first opportunity this week, at the Republican debate in Boulder, Colorado. When the pressure was on this past week, at the first Democratic debate and then at the Benghazi hearing, Clinton rose to the occasion and gave her campaign a huge boost. Now, it’s Bush’s turn. “Jeb really needs a knockout performance—it needs to be all him with nobody even close,” a New Hampshire Republican&nbsp;<a href="http://www.politico.com/story/2015/10/insiders-trump-nomination-looking-more-likely-215087#ixzz3pWJ6Yb74">told Politico</a>. “Otherwise those fumes he’s on are going to evaporate even quicker.”</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/news/john-cassidy/jeb-and-hillary-a-tale-of-two-frontrunners</link>
 </item>
 <item>
 <title>Holly Andres’s Adolescent Fairy Tales</title>
 <description>
 <![CDATA[ <p>Holly Andres’s photo series seem to unfold in the darkened corners of a fairy-tale dream space—a place where the private lives of girls intersect with the mysteries, and occasional dangers, of the real world. The stories she tells—in lush, cinematic scope, like movies made up of only still images—are often drawn from stories in her own childhood: the adventures of a group of adolescent girls hungry for new experience; the trauma of two young sisters who venture too close to a hornet&#8217;s nest. Her latest series, “The Fallen Fawn,” which will go on display at the Robert Mann Gallery on October 29th, tells the story of two sisters who discover a woman’s abandoned suitcase by a river behind their house. Treating it as a valuable treasure, they bring it home, hide it underneath the bed, and secretly dress up in the &#8220;mystery woman&#8217;s&#8221; belongings at night. In this story, as in her other work, the young protagonists project both the plucky curiosity of Nancy Drew and the fragile innocence of a sleeping Snow White.</p>]]>
 </description>
-<link>http://www.newyorker.com/culture/photo-booth/holly-andress-adolescent-fairy-tales</link>
 </item>
 <item>
 <title>The Propaganda Precursor to “The Act of Killing”</title>
@@ -62,7 +59,6 @@
  <p>A year ago, when the reformist President Joko “Jokowi” Widodo took office, activists had high hopes that the fiftieth anniversary of the killings would bring a serious attempt to redress past wrongs. But even Jokowi’s most milquetoast statements about reconciliation have met harsh resistance from conservative politicians and Islamist groups, who paint the P.K.I. as a symbol of the secular and progressive forces that they believe continue to undermine Indonesia. During the days leading up to the October 1st commemoration, several of Jokowi’s confidants attempted to stave off controversy by announcing that the President had no intention of apologizing to the victims of the anti-Communist slaughter. So it was no surprise when, at a ceremony commemorating the slain generals, Jokowi made clear that he, like Indonesia’s previous President, Susilo Bambang Yudhoyono, would not be offering an official apology. “<a href="http://www.rappler.com/indonesia/107717-jokowi-tidak-minta-maaf-pki-tragedi-1965">Apologize</a>&nbsp;to whom?” he asked. “Who should forgive whom when both sides claim to be victims?”</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/news/news-desk/the-propaganda-precursor-to-the-act-of-killing</link>
 </item>
 <item>
 <title>The Too-Easy History of “Suffragette”</title>
@@ -79,7 +75,6 @@
  <p>Watching “Suffragette,” I sensed that the onesidedness of its argument was rooted in a different sort of fear—that of giving aid and comfort to the enemy, of passing ammunition across the lines of ongoing battles. It’s as if the very notion of a debate, implicit or explicit—even one in which reason is entirely on the side of the movie’s heroines—suggests that there’s another side to the conflict that’s even worthy of mention. It’s easy—too easy—for a movie about history to present the great changes of the past as the triumph of reason over unreason, without indicating the profound investment in tradition and continuity, and the fear of change, that even the beneficiaries of that change might feel. And this very fear of giving aid to defenders of injustice today has an aesthetic correlate—namely, a resistance to beauty: as if the free-spirited artistry that can find pleasure even in times and places of trouble were legitimizing the source of that trouble. That’s why “Suffragette,” like many contemporary movies on the subject of the advancement of just causes, is a comfort to its viewers, but not a tool; a gratification, but not a stimulus. It takes no risks and offers no challenge.</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/culture/richard-brody/the-too-easy-history-of-suffragette</link>
 </item>
 <item>
 <title>An Attack and an Identity Crisis in Sweden</title>
@@ -97,7 +92,6 @@
  <p>Now the country will also have to process the trauma of what may ultimately be labelled an act of domestic terrorism. Certainly, there will be calls for increased openness and tolerance, to powerfully manifest against racism, xenophobia, and hatred, along the lines of Norway’s Jens Stoltenberg’s <a href="http://www.telegraph.co.uk/news/worldnews/europe/norway/9418144/Jens-Stoltenberg-interview-prime-minister-at-the-helm-during-Breivik-shooting.html" target="_blank">bold approach</a> to the Breivik attacks. But there will also be those who say that the small, wealthy nation needs to take a more cautious approach to immigration, in order to preserve its citizens’ faith in the traditional social contract while maintaining a strong humanitarian ideal. What the U.N.H.C.R. calls the <a href="http://www.unhcr.org/558193896.html" target="_blank">largest refugee crisis</a> of all time may also be Sweden’s most painful and complicated political struggle in the next decade, and a very personal one for many Swedes.</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/news/news-desk/an-attack-and-an-identity-crisis-in-sweden</link>
 </item>
 <item>
 <title>B.M.W.D.</title>
@@ -119,14 +113,12 @@
  <p>Soon she was back in the present, “Tuesday’s the first game of the World Series, and we have tickets to ‘Tannhäuser’ at the Met. Four and a half hours, with two intermissions, so we won’t see a single inning. The tickets are really expensive and I’d trade them in in a minute, but now of course nobody will want them. All this is a huge adjustment for me. I’m trying to get used to it, and it’s so fun.”</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/news/sporting-scene/mets-fans-wildest-dreams</link>
 </item>
 <item>
 <title>Daily Cartoon: Friday, October 23rd</title>
 <description>
 <![CDATA[]]>
 </description>
-<link>http://www.newyorker.com/cartoons/daily-cartoon/friday-october-23rd-hillary-clinton-benghazi-congressional-hearing</link>
 </item>
 <item>
 <title>Are Cats Domesticated?</title>
@@ -141,14 +133,12 @@
  <p><em>*Correction: An earlier version of this post misidentified Wesley Warren’s university affiliation.</em></p>
 ]]>
 </description>
-<link>http://www.newyorker.com/tech/elements/are-cats-domesticated</link>
 </item>
 <item>
 <title>To Catch a Falling Leaf</title>
 <description>
 <![CDATA[]]>
 </description>
-<link>http://www.newyorker.com/culture/culture-desk/to-catch-a-falling-leaf</link>
 </item>
 <item>
 <title>What Provoked Palestinian Knife Attacks in Israel?</title>
@@ -163,7 +153,6 @@
  <p>With these words, Netanyahu carries Goldberg’s reasonable caution to a grotesque extreme. He is presenting the current attacks as evidence of the hopelessness of ever looking for a Palestinian partner—presumably justifying, among other things, his government’s settlement project (which Palestinians view as incitement). The violence, in Netanyahu’s view, should be understood as an&nbsp;inevitability more than a century old, the consequence of a permanent, religious-inflected national ideology. The inference is that Israelis should take up arms and put aside illusions. On Thursday morning, John Kerry met with Netanyahu in Berlin and emerged expressing “a cautious measure of optimism” in advance of meetings with Abbas and Jordan’s King Abdullah in Amman, tomorrow. Presumably, Kerry is now focussed on reaching an agreement about the status of the Temple Mount. Netanyahu did not miss the chance to say, again, that the attacks are “driven directly by incitement, incitement from Hamas, incitement from the Islamist movement in Israel, and incitement, I am sorry to say, from President Abbas and the Palestinian Authority.” He is, of course, right. The incitement must stop. It must also be situated in a widening tragedy that produces despair.</p>
 ]]>
 </description>
-<link>http://www.newyorker.com/news/news-desk/what-provoked-palestinian-knife-attacks-in-israel</link>
 </item>
 </channel>
 </rss>
