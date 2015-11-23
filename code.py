@@ -6,7 +6,11 @@ from readability.readability import Document
 import argparse
 import urllib
 
-def readabilityCleanup(content):
+# readability's the content & cleans it up 
+def grabContent(link, negs, pos):
+    html = urllib.urlopen(link).read()
+    content = Document(html, url=link, negative_keywords=negs, positive_keywords=pos).summary()
+
     # rips out the newsletter portion, because I couldn't get readability neg keywords to do the job
     content = re.sub(r'<section id="newsletter-signup">.*?</section>',
                         "",
@@ -18,39 +22,13 @@ def readabilityCleanup(content):
     content = re.sub(r'</body></html>', "", content)
     return content
 
+#wrappers
 def getNautilusContent(link):
-    html = urllib.urlopen(link).read()
-    extraNegs = None
-    content = Document(html, url=link).summary()
-    content = readabilityCleanup(content)
-    return content
+    return grabContent(link, None, None)
 
 def getYorkerContent(link):
-    html = urllib.urlopen(link).read()
     extraNegs = "sendlater-container"
-    content = Document(html, url=link, negative_keywords=extraNegs).summary()
-    content = readabilityCleanup(content)
-    return content
-
-    # getContent = "python -m readability.readability -u "+link+" -n " + extraNegs
-    # sedFix = "sed -E 's/<section id=\"newsletter-signup\">.*?</section>//g'"
-    # try:
-    #     output = subprocess.check_output(getContent + " | " + sedFix, shell=True)
-    # except subprocess.CalledProcessError as e:
-    #     output = str(e.output)
-    # return output
-
-# UNUSED
-def getFullContent(link):
-    """gets the actual content of the article"""
-    curl = "curl -L " + link
-    tidy = "tidy --force-output yes --vertical-space no -utf8 -w 100000 2>/dev/null"
-    grep = "grep word_count"
-    try:
-        output = subprocess.check_output(curl + " | " + tidy + " | " + grep, shell=True)
-    except subprocess.CalledProcessError as e:
-        output = str(e.output)
-    return output
+    return grabContent(link, extraNegs, None)
 
 def getStuffBetween(tag, text):
     """ finds tag data, and notes the lines they appeared on
@@ -88,9 +66,10 @@ def work(item, fixeditems, index):
     newcontent = fullcontent.encode("utf-8")
 
     #now we plug in the content into the description
-    fixeditem = re.sub("<!\[CDATA\[.*?\]\]>",
-                        "<![CDATA["+newcontent+"]]>",
-                        item)
+    fixeditem = re.sub(r"(<description>.*?<!\[CDATA\[).*?(\]\]>)",
+                        "\\1"+ newcontent +"\\2",
+                        item,
+                        flags=re.S)
     # and get rid of the original content:encoded, because we don't need it
     fixeditem = re.sub("<content:encoded>.*?</content:encoded>", 
                         "", 
@@ -146,7 +125,7 @@ if __name__ == '__main__':
     # find the items
     items, numbers = getStuffBetween("item", lines)
 
-    # fix the items
+    # fix the items (shove in the full article's content)
     fixeditems = fixItems(items)
 
     # and now we plug it back in
