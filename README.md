@@ -19,3 +19,7 @@ Alternatively, if RSS's turn out to be quite varied, I'll just build a new RSS t
 [The New Yorker](setr.github.io/newfeed/finalyorker.rss)
 
 [Nautilus](setr.github.io/newfeed/finalnaut.rss)
+
+## Requirements
+
+[python-readability](https://github.com/buriy/python-readability)
